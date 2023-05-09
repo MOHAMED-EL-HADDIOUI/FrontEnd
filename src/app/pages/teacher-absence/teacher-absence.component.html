@@ -1,0 +1,176 @@
+<div class="wrapper">
+  <div class="main-panel">
+    <app-navbar></app-navbar>
+    <div class="panel-header panel-header-sm" style="text-align: center">
+      <button class="btn btn-round btn-warning" (click)="goToMenu()" style="margin-left:18px; margin-right: 18px">Menu
+      </button>
+
+      <button class="btn btn-round btn-warning" (click)="goToMySpace()" style="margin-right: 18px">
+        Mon espace
+      </button>
+      <button class="btn btn-round btn-success" (click)="goToAttendance()" style="margin-right: 18px">
+        Marquer Absences
+      </button>
+      <button class="btn btn-round btn-warning" (click)="goToMyMarks()" style="margin-right: 18px">
+        Saisir Notes
+      </button>
+      <button class="btn btn-round btn-warning" (click)="logout()" style="margin-right: 18px">Se déconnecter</button>
+      <br><br>
+    </div>
+    <div class="main-content">
+      <div class="row">
+
+
+        <div class="col-md-12">
+          <div class="card" style="border-radius: 48px !important;">
+            <div class="card-body">
+              <form>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div style="text-align:center">
+                      <!-- Show Two select option with form-control class -->
+                      <select class="form-control">
+                        <option [(ngModel)]="selectedSpeciality" value=""
+                                (change)="getElementModules()">Selléctioner la filière
+                        </option>
+                      </select>
+                    </div>
+
+                    <div style="text-align:center">
+                      <!-- Show Two select option with form-control class -->
+                      <select class="form-control">
+                        <option value="">Choisir une classe</option>
+                        <option>{{''}}</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="card" style="border-radius: 48px !important;">
+            <div class="card-body">
+              <form>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div style="text-align:center">
+                      <!-- Show a responsive table of students with Id, First, Last, Subject and Text input decimal to enter the mark -->
+
+                     <table class="table table-responsive">
+                        <thead>
+                        <tr>
+                          <th scope="col">Id</th>
+                          <th scope="col">Prénom</th>
+                          <th scope="col">Nom</th>
+                          <th scope="col">Matière</th>
+                          <th scope="col">Note</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                          <td>{{''}}</td>
+                          <td>{{''}}</td>
+                          <td>{{''}}</td>
+                          <td>{{''}}</td>
+                          <td>
+                            <input type="text" class="form-control" placeholder="Note">
+                          </td>
+                        </tr>
+                        </tbody>
+                      </table> </div>
+                    </div>
+                  </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-header" style="text-align: center">
+
+              <!---->
+              <p-splitter [style]="{'height': '1200px', 'border':'0px'}" [panelSizes]="[26,74]">
+                <ng-template pTemplate>
+                  <p-splitter [style]="{'height': '1200px'}" styleClass="mb-5" layout="vertical"
+                              [panelSizes]="[5,5,80]">
+                    <ng-template pTemplate>
+                      <p-dropdown [options]="specialitiesNames" [(ngModel)]="selectedSpeciality"
+                                  placeholder="Selectioner la filière"
+                                  [showClear]="true" (onChange)="flag = 0;getElementModules()"></p-dropdown>
+                      <br>
+                      <p-dropdown [options]="elementModuleNames" [(ngModel)]="selectedModule"
+                                  placeholder="Selectioner le module"
+                                  [showClear]="true"></p-dropdown>
+                      <br>
+                      <button pButton pRipple type="button" icon="pi pi-check"
+                              class="p-button-rounded" (click)="getStudents()"></button>
+                    </ng-template>
+                  </p-splitter>
+                </ng-template>
+                <ng-template pTemplate>
+                  <div class="card" *ngIf="students.length != 0">
+                    <p-table [value]="students" styleClass="p-datatable-customers">
+                      <ng-template pTemplate="header">
+                        <tr>
+                          <th>Nom</th>
+                          <th>Prenom</th>
+                          <th>Present(e)</th>
+                        </tr>
+                      </ng-template>
+                      <ng-template pTemplate="body" let-student>
+                        <tr>
+                          <td>
+                            <span class="p-column-title">Nom</span>
+                            {{student.nom}}
+                          </td>
+                          <td>
+                            <span class="p-column-title">Prenom</span>
+                            <span class="image-text">{{student.prenom}}</span>
+                          </td>
+
+                          <td>
+                            <span class="p-column-title">Present(e)</span>
+                            <span class="image-text" *ngIf="student.isAbscent" class="present">
+                              <button pButton pRipple type="button" icon="pi pi-times"
+                                      class="p-button-rounded p-button-danger p-button-text"
+                                      (click)="unMarqueAbs(student.id)"></button>
+                            </span>
+                            <span class="image-text" *ngIf="!student.isAbscent" class="present">
+                              <button pButton pRipple type="button" icon="pi pi-check"
+                                      class="p-button-rounded p-button-text" (click)="marqueAbs(student.id)"></button>
+                            </span>
+                          </td>
+                        </tr>
+
+                      </ng-template>
+                      <ng-template pTemplate="emptymessage">
+                        <tr>
+                          <td colspan="4">No students found, try to reload.</td>
+                        </tr>
+                      </ng-template>
+
+                    </p-table>
+                    <br>
+                    <p-button label="Submit" icon="pi pi-check" iconPos="right" class="confirm"
+                              (click)="addAbsences()"></p-button>
+
+                  </div>
+                </ng-template>
+              </p-splitter>
+              <!---->
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <app-footer></app-footer>
+  </div>
+</div>

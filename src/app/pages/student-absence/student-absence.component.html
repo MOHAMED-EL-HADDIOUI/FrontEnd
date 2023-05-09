@@ -1,0 +1,85 @@
+<div class="wrapper">
+  <div class="main-panel">
+    <app-navbar></app-navbar>
+    <div class="panel-header panel-header-sm" style="text-align: center">
+      <button class="btn btn-round btn-warning" (click)="goToMenu()" style="margin-left:18px; margin-right: 18px">Menu</button>
+     
+      <button class="btn btn-round btn-warning" (click)="goToMySpace()" style="margin-right: 18px">
+        Mon espace
+      </button>
+      <button class="btn btn-round btn-success" (click)="goToAttendance()" style="margin-right: 18px">
+        Mes Absences
+      </button>
+      <button class="btn btn-round btn-warning" (click)="goToMyMarks()" style="margin-right: 18px">
+        Mes Notes
+      </button>
+      <button class="btn btn-round btn-warning" (click)="logout()" style="margin-right: 18px">Se déconnecter</button>
+      <br><br>
+    </div>
+    <div class="main-content">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-header" style="text-align: center">
+            <!---->
+              <div class="layout-dashboard">
+                <div class="grid">
+                    <div class="col-12 md:col-6 lg:col-3">
+                        <div class="overview-box sales">
+                            <div class="overview-title">Total Absence</div>
+                            <div class="overview-numbers">
+                                {{absences.length}}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 md:col-6 lg:col-3">
+                        <div class="overview-box views">
+                            <div class="overview-title">Absence Non Justifié</div>
+                            <div class="overview-numbers">
+                              {{absences.length}}
+                            </div>
+                        </div>
+                    </div>
+
+                  <br>
+                  <div>
+                  <p-table [value]="absences">
+                    <ng-template pTemplate="header">
+                        <tr>
+                            <th>Element module</th>
+                            <th>Date</th>
+                            <th>Justifié</th>
+                            <th>Ajouter justification</th>
+                        </tr>
+                    </ng-template>
+                    <ng-template pTemplate="body" let-absence>
+                        <tr>
+                            <td>
+                                {{absence.element.titre}}
+                            </td>
+                            <td>
+                                {{absence.date | date: 'MM/dd/yyyy'}}
+                            </td>
+                            <td class="text-center">
+                              <i class="pi" [ngClass]="{'true-icon pi-check-circle': absence.justified, 'false-icon pi-times-circle': !absence.justified}"></i>
+                            </td>
+                            <td>
+                              <p-fileUpload mode="basic" [customUpload]="true" name="demo[]" accept="*"  (uploadHandler)="onUpload($event, $absence)" [auto]="true"></p-fileUpload>
+
+                            </td>
+                        </tr>
+                    </ng-template>
+                </p-table>
+              </div>
+                  </div>
+                </div>
+              </div>    
+              <!---->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <app-footer></app-footer>
+  </div>
+</div>

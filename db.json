@@ -1,0 +1,3510 @@
+{
+  "tbody": {
+    "lignesTBody": [
+      {
+        "numero": 21518305,
+        "nom": "AIT OULAHYANE",
+        "prenom": "AYA",
+        "dateNaissance": " 06/09/2000",
+        "noteSemestre": null,
+        "etudiantModuleList": [
+          {
+            "codeModule": "TII121*5",
+            "noteModule": 18,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12115",
+                "titreElement": "Analyse Numerique 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12125",
+                "titreElement": "Statistique",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII122*5",
+            "noteModule":17,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12215",
+                "titreElement": "Structures de donnees",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12225",
+                "titreElement": "Programmation fonctionnel",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII123*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12315",
+                "titreElement": "Conception et progra C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12325",
+                "titreElement": "Projet progra ori obj C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII124*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12415",
+                "titreElement": "Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12425",
+                "titreElement": "Projet Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII125*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12515",
+                "titreElement": "Theorie des Systemes d'ex",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12525",
+                "titreElement": "SE Windows/Unix/Linux",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII126*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12615",
+                "titreElement": "Projet personnel 1",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 1
+              }
+            ]
+          },
+          {
+            "codeModule": "TII127*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12715",
+                "titreElement": "Comptabilite generale",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12725",
+                "titreElement": "Gestion de l'entreprise",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII128*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12815",
+                "titreElement": "TC langue franeaise 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12825",
+                "titreElement": "Anglais 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 21518305,
+        "nom": "AIT OULAHYANE",
+        "prenom": "AYA",
+        "dateNaissance": " 06/09/2000",
+        "noteSemestre": null,
+        "etudiantModuleList": [
+          {
+            "codeModule": "TII121*5",
+            "noteModule": 18,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12115",
+                "titreElement": "Analyse Numerique 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12125",
+                "titreElement": "Statistique",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII122*5",
+            "noteModule":17,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12215",
+                "titreElement": "Structures de donnees",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12225",
+                "titreElement": "Programmation fonctionnel",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII123*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12315",
+                "titreElement": "Conception et progra C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12325",
+                "titreElement": "Projet progra ori obj C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII124*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12415",
+                "titreElement": "Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12425",
+                "titreElement": "Projet Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII125*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12515",
+                "titreElement": "Theorie des Systemes d'ex",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12525",
+                "titreElement": "SE Windows/Unix/Linux",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII126*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12615",
+                "titreElement": "Projet personnel 1",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 1
+              }
+            ]
+          },
+          {
+            "codeModule": "TII127*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12715",
+                "titreElement": "Comptabilite generale",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12725",
+                "titreElement": "Gestion de l'entreprise",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII128*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12815",
+                "titreElement": "TC langue franeaise 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12825",
+                "titreElement": "Anglais 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 21518305,
+        "nom": "AIT OULAHYANE",
+        "prenom": "AYA",
+        "dateNaissance": " 06/09/2000",
+        "noteSemestre": null,
+        "etudiantModuleList": [
+          {
+            "codeModule": "TII121*5",
+            "noteModule": 18,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12115",
+                "titreElement": "Analyse Numerique 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12125",
+                "titreElement": "Statistique",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII122*5",
+            "noteModule":17,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12215",
+                "titreElement": "Structures de donnees",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12225",
+                "titreElement": "Programmation fonctionnel",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII123*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12315",
+                "titreElement": "Conception et progra C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12325",
+                "titreElement": "Projet progra ori obj C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII124*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12415",
+                "titreElement": "Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12425",
+                "titreElement": "Projet Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII125*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12515",
+                "titreElement": "Theorie des Systemes d'ex",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12525",
+                "titreElement": "SE Windows/Unix/Linux",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII126*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12615",
+                "titreElement": "Projet personnel 1",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 1
+              }
+            ]
+          },
+          {
+            "codeModule": "TII127*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12715",
+                "titreElement": "Comptabilite generale",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12725",
+                "titreElement": "Gestion de l'entreprise",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII128*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12815",
+                "titreElement": "TC langue franeaise 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12825",
+                "titreElement": "Anglais 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 21518305,
+        "nom": "AIT OULAHYANE",
+        "prenom": "AYA",
+        "dateNaissance": " 06/09/2000",
+        "noteSemestre": null,
+        "etudiantModuleList": [
+          {
+            "codeModule": "TII121*5",
+            "noteModule": 18,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12115",
+                "titreElement": "Analyse Numerique 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12125",
+                "titreElement": "Statistique",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII122*5",
+            "noteModule":17,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12215",
+                "titreElement": "Structures de donnees",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12225",
+                "titreElement": "Programmation fonctionnel",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII123*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12315",
+                "titreElement": "Conception et progra C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12325",
+                "titreElement": "Projet progra ori obj C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII124*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12415",
+                "titreElement": "Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12425",
+                "titreElement": "Projet Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII125*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12515",
+                "titreElement": "Theorie des Systemes d'ex",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12525",
+                "titreElement": "SE Windows/Unix/Linux",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII126*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12615",
+                "titreElement": "Projet personnel 1",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 1
+              }
+            ]
+          },
+          {
+            "codeModule": "TII127*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12715",
+                "titreElement": "Comptabilite generale",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12725",
+                "titreElement": "Gestion de l'entreprise",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII128*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12815",
+                "titreElement": "TC langue franeaise 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12825",
+                "titreElement": "Anglais 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 21518305,
+        "nom": "AIT OULAHYANE",
+        "prenom": "AYA",
+        "dateNaissance": " 06/09/2000",
+        "noteSemestre": null,
+        "etudiantModuleList": [
+          {
+            "codeModule": "TII121*5",
+            "noteModule": 18,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12115",
+                "titreElement": "Analyse Numerique 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12125",
+                "titreElement": "Statistique",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII122*5",
+            "noteModule":17,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12215",
+                "titreElement": "Structures de donnees",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12225",
+                "titreElement": "Programmation fonctionnel",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII123*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12315",
+                "titreElement": "Conception et progra C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12325",
+                "titreElement": "Projet progra ori obj C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII124*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12415",
+                "titreElement": "Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12425",
+                "titreElement": "Projet Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII125*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12515",
+                "titreElement": "Theorie des Systemes d'ex",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12525",
+                "titreElement": "SE Windows/Unix/Linux",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII126*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12615",
+                "titreElement": "Projet personnel 1",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 1
+              }
+            ]
+          },
+          {
+            "codeModule": "TII127*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12715",
+                "titreElement": "Comptabilite generale",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12725",
+                "titreElement": "Gestion de l'entreprise",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII128*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12815",
+                "titreElement": "TC langue franeaise 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12825",
+                "titreElement": "Anglais 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 21518305,
+        "nom": "AIT OULAHYANE",
+        "prenom": "AYA",
+        "dateNaissance": " 06/09/2000",
+        "noteSemestre": null,
+        "etudiantModuleList": [
+          {
+            "codeModule": "TII121*5",
+            "noteModule": 18,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12115",
+                "titreElement": "Analyse Numerique 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12125",
+                "titreElement": "Statistique",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII122*5",
+            "noteModule":17,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12215",
+                "titreElement": "Structures de donnees",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12225",
+                "titreElement": "Programmation fonctionnel",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII123*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12315",
+                "titreElement": "Conception et progra C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12325",
+                "titreElement": "Projet progra ori obj C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII124*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12415",
+                "titreElement": "Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12425",
+                "titreElement": "Projet Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII125*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12515",
+                "titreElement": "Theorie des Systemes d'ex",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12525",
+                "titreElement": "SE Windows/Unix/Linux",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII126*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12615",
+                "titreElement": "Projet personnel 1",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 1
+              }
+            ]
+          },
+          {
+            "codeModule": "TII127*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12715",
+                "titreElement": "Comptabilite generale",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12725",
+                "titreElement": "Gestion de l'entreprise",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII128*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12815",
+                "titreElement": "TC langue franeaise 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12825",
+                "titreElement": "Anglais 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 21518305,
+        "nom": "AIT OULAHYANE",
+        "prenom": "AYA",
+        "dateNaissance": " 06/09/2000",
+        "noteSemestre": null,
+        "etudiantModuleList": [
+          {
+            "codeModule": "TII121*5",
+            "noteModule": 18,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12115",
+                "titreElement": "Analyse Numerique 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12125",
+                "titreElement": "Statistique",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII122*5",
+            "noteModule":17,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12215",
+                "titreElement": "Structures de donnees",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12225",
+                "titreElement": "Programmation fonctionnel",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII123*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12315",
+                "titreElement": "Conception et progra C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12325",
+                "titreElement": "Projet progra ori obj C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII124*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12415",
+                "titreElement": "Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12425",
+                "titreElement": "Projet Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII125*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12515",
+                "titreElement": "Theorie des Systemes d'ex",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12525",
+                "titreElement": "SE Windows/Unix/Linux",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII126*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12615",
+                "titreElement": "Projet personnel 1",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 1
+              }
+            ]
+          },
+          {
+            "codeModule": "TII127*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12715",
+                "titreElement": "Comptabilite generale",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12725",
+                "titreElement": "Gestion de l'entreprise",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII128*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12815",
+                "titreElement": "TC langue franeaise 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12825",
+                "titreElement": "Anglais 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 21518305,
+        "nom": "AIT OULAHYANE",
+        "prenom": "AYA",
+        "dateNaissance": " 06/09/2000",
+        "noteSemestre": null,
+        "etudiantModuleList": [
+          {
+            "codeModule": "TII121*5",
+            "noteModule": 18,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12115",
+                "titreElement": "Analyse Numerique 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12125",
+                "titreElement": "Statistique",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII122*5",
+            "noteModule":17,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12215",
+                "titreElement": "Structures de donnees",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12225",
+                "titreElement": "Programmation fonctionnel",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII123*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12315",
+                "titreElement": "Conception et progra C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12325",
+                "titreElement": "Projet progra ori obj C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII124*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12415",
+                "titreElement": "Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12425",
+                "titreElement": "Projet Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII125*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12515",
+                "titreElement": "Theorie des Systemes d'ex",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12525",
+                "titreElement": "SE Windows/Unix/Linux",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII126*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12615",
+                "titreElement": "Projet personnel 1",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 1
+              }
+            ]
+          },
+          {
+            "codeModule": "TII127*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12715",
+                "titreElement": "Comptabilite generale",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12725",
+                "titreElement": "Gestion de l'entreprise",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII128*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12815",
+                "titreElement": "TC langue franeaise 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12825",
+                "titreElement": "Anglais 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 21518305,
+        "nom": "AIT OULAHYANE",
+        "prenom": "AYA",
+        "dateNaissance": " 06/09/2000",
+        "noteSemestre": null,
+        "etudiantModuleList": [
+          {
+            "codeModule": "TII121*5",
+            "noteModule": 18,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12115",
+                "titreElement": "Analyse Numerique 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12125",
+                "titreElement": "Statistique",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII122*5",
+            "noteModule":17,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12215",
+                "titreElement": "Structures de donnees",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12225",
+                "titreElement": "Programmation fonctionnel",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII123*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12315",
+                "titreElement": "Conception et progra C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12325",
+                "titreElement": "Projet progra ori obj C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII124*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12415",
+                "titreElement": "Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12425",
+                "titreElement": "Projet Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII125*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12515",
+                "titreElement": "Theorie des Systemes d'ex",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12525",
+                "titreElement": "SE Windows/Unix/Linux",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII126*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12615",
+                "titreElement": "Projet personnel 1",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 1
+              }
+            ]
+          },
+          {
+            "codeModule": "TII127*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12715",
+                "titreElement": "Comptabilite generale",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12725",
+                "titreElement": "Gestion de l'entreprise",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII128*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12815",
+                "titreElement": "TC langue franeaise 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12825",
+                "titreElement": "Anglais 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 21518305,
+        "nom": "AIT OULAHYANE",
+        "prenom": "AYA",
+        "dateNaissance": " 06/09/2000",
+        "noteSemestre": null,
+        "etudiantModuleList": [
+          {
+            "codeModule": "TII121*5",
+            "noteModule": 18,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12115",
+                "titreElement": "Analyse Numerique 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12125",
+                "titreElement": "Statistique",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII122*5",
+            "noteModule":17,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12215",
+                "titreElement": "Structures de donnees",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12225",
+                "titreElement": "Programmation fonctionnel",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII123*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12315",
+                "titreElement": "Conception et progra C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12325",
+                "titreElement": "Projet progra ori obj C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII124*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12415",
+                "titreElement": "Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12425",
+                "titreElement": "Projet Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII125*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12515",
+                "titreElement": "Theorie des Systemes d'ex",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12525",
+                "titreElement": "SE Windows/Unix/Linux",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII126*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12615",
+                "titreElement": "Projet personnel 1",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 1
+              }
+            ]
+          },
+          {
+            "codeModule": "TII127*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12715",
+                "titreElement": "Comptabilite generale",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12725",
+                "titreElement": "Gestion de l'entreprise",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII128*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12815",
+                "titreElement": "TC langue franeaise 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12825",
+                "titreElement": "Anglais 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 21518305,
+        "nom": "AIT OULAHYANE",
+        "prenom": "AYA",
+        "dateNaissance": " 06/09/2000",
+        "noteSemestre": null,
+        "etudiantModuleList": [
+          {
+            "codeModule": "TII121*5",
+            "noteModule": 18,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12115",
+                "titreElement": "Analyse Numerique 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12125",
+                "titreElement": "Statistique",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII122*5",
+            "noteModule":17,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12215",
+                "titreElement": "Structures de donnees",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12225",
+                "titreElement": "Programmation fonctionnel",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII123*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12315",
+                "titreElement": "Conception et progra C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12325",
+                "titreElement": "Projet progra ori obj C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII124*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12415",
+                "titreElement": "Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12425",
+                "titreElement": "Projet Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII125*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12515",
+                "titreElement": "Theorie des Systemes d'ex",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12525",
+                "titreElement": "SE Windows/Unix/Linux",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII126*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12615",
+                "titreElement": "Projet personnel 1",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 1
+              }
+            ]
+          },
+          {
+            "codeModule": "TII127*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12715",
+                "titreElement": "Comptabilite generale",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12725",
+                "titreElement": "Gestion de l'entreprise",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII128*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12815",
+                "titreElement": "TC langue franeaise 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12825",
+                "titreElement": "Anglais 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 21518305,
+        "nom": "AIT OULAHYANE",
+        "prenom": "AYA",
+        "dateNaissance": " 06/09/2000",
+        "noteSemestre": null,
+        "etudiantModuleList": [
+          {
+            "codeModule": "TII121*5",
+            "noteModule": 18,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12115",
+                "titreElement": "Analyse Numerique 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12125",
+                "titreElement": "Statistique",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII122*5",
+            "noteModule":17,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12215",
+                "titreElement": "Structures de donnees",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12225",
+                "titreElement": "Programmation fonctionnel",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII123*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12315",
+                "titreElement": "Conception et progra C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12325",
+                "titreElement": "Projet progra ori obj C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII124*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12415",
+                "titreElement": "Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12425",
+                "titreElement": "Projet Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII125*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12515",
+                "titreElement": "Theorie des Systemes d'ex",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12525",
+                "titreElement": "SE Windows/Unix/Linux",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII126*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12615",
+                "titreElement": "Projet personnel 1",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 1
+              }
+            ]
+          },
+          {
+            "codeModule": "TII127*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12715",
+                "titreElement": "Comptabilite generale",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12725",
+                "titreElement": "Gestion de l'entreprise",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII128*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12815",
+                "titreElement": "TC langue franeaise 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12825",
+                "titreElement": "Anglais 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 21518305,
+        "nom": "AIT OULAHYANE",
+        "prenom": "AYA",
+        "dateNaissance": " 06/09/2000",
+        "noteSemestre": null,
+        "etudiantModuleList": [
+          {
+            "codeModule": "TII121*5",
+            "noteModule": 18,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12115",
+                "titreElement": "Analyse Numerique 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12125",
+                "titreElement": "Statistique",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII122*5",
+            "noteModule":17,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12215",
+                "titreElement": "Structures de donnees",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12225",
+                "titreElement": "Programmation fonctionnel",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII123*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12315",
+                "titreElement": "Conception et progra C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12325",
+                "titreElement": "Projet progra ori obj C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII124*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12415",
+                "titreElement": "Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12425",
+                "titreElement": "Projet Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII125*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12515",
+                "titreElement": "Theorie des Systemes d'ex",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12525",
+                "titreElement": "SE Windows/Unix/Linux",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII126*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12615",
+                "titreElement": "Projet personnel 1",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 1
+              }
+            ]
+          },
+          {
+            "codeModule": "TII127*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12715",
+                "titreElement": "Comptabilite generale",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12725",
+                "titreElement": "Gestion de l'entreprise",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII128*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12815",
+                "titreElement": "TC langue franeaise 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12825",
+                "titreElement": "Anglais 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 21518305,
+        "nom": "AIT OULAHYANE",
+        "prenom": "AYA",
+        "dateNaissance": " 06/09/2000",
+        "noteSemestre": null,
+        "etudiantModuleList": [
+          {
+            "codeModule": "TII121*5",
+            "noteModule": 18,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12115",
+                "titreElement": "Analyse Numerique 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12125",
+                "titreElement": "Statistique",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII122*5",
+            "noteModule":17,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12215",
+                "titreElement": "Structures de donnees",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12225",
+                "titreElement": "Programmation fonctionnel",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII123*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12315",
+                "titreElement": "Conception et progra C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12325",
+                "titreElement": "Projet progra ori obj C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII124*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12415",
+                "titreElement": "Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12425",
+                "titreElement": "Projet Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII125*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12515",
+                "titreElement": "Theorie des Systemes d'ex",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12525",
+                "titreElement": "SE Windows/Unix/Linux",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII126*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12615",
+                "titreElement": "Projet personnel 1",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 1
+              }
+            ]
+          },
+          {
+            "codeModule": "TII127*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12715",
+                "titreElement": "Comptabilite generale",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12725",
+                "titreElement": "Gestion de l'entreprise",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII128*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12815",
+                "titreElement": "TC langue franeaise 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12825",
+                "titreElement": "Anglais 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 21518305,
+        "nom": "AIT OULAHYANE",
+        "prenom": "AYA",
+        "dateNaissance": " 06/09/2000",
+        "noteSemestre": null,
+        "etudiantModuleList": [
+          {
+            "codeModule": "TII121*5",
+            "noteModule": 18,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12115",
+                "titreElement": "Analyse Numerique 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12125",
+                "titreElement": "Statistique",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII122*5",
+            "noteModule":17,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12215",
+                "titreElement": "Structures de donnees",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12225",
+                "titreElement": "Programmation fonctionnel",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII123*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12315",
+                "titreElement": "Conception et progra C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12325",
+                "titreElement": "Projet progra ori obj C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII124*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12415",
+                "titreElement": "Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12425",
+                "titreElement": "Projet Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII125*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12515",
+                "titreElement": "Theorie des Systemes d'ex",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12525",
+                "titreElement": "SE Windows/Unix/Linux",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII126*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12615",
+                "titreElement": "Projet personnel 1",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 1
+              }
+            ]
+          },
+          {
+            "codeModule": "TII127*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12715",
+                "titreElement": "Comptabilite generale",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12725",
+                "titreElement": "Gestion de l'entreprise",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII128*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12815",
+                "titreElement": "TC langue franeaise 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12825",
+                "titreElement": "Anglais 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 21518305,
+        "nom": "AIT OULAHYANE",
+        "prenom": "AYA",
+        "dateNaissance": " 06/09/2000",
+        "noteSemestre": null,
+        "etudiantModuleList": [
+          {
+            "codeModule": "TII121*5",
+            "noteModule": 18,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12115",
+                "titreElement": "Analyse Numerique 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12125",
+                "titreElement": "Statistique",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII122*5",
+            "noteModule":17,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12215",
+                "titreElement": "Structures de donnees",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12225",
+                "titreElement": "Programmation fonctionnel",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII123*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12315",
+                "titreElement": "Conception et progra C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12325",
+                "titreElement": "Projet progra ori obj C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII124*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12415",
+                "titreElement": "Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12425",
+                "titreElement": "Projet Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII125*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12515",
+                "titreElement": "Theorie des Systemes d'ex",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12525",
+                "titreElement": "SE Windows/Unix/Linux",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII126*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12615",
+                "titreElement": "Projet personnel 1",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 1
+              }
+            ]
+          },
+          {
+            "codeModule": "TII127*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12715",
+                "titreElement": "Comptabilite generale",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12725",
+                "titreElement": "Gestion de l'entreprise",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII128*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12815",
+                "titreElement": "TC langue franeaise 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12825",
+                "titreElement": "Anglais 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 21518305,
+        "nom": "AIT OULAHYANE",
+        "prenom": "AYA",
+        "dateNaissance": " 06/09/2000",
+        "noteSemestre": null,
+        "etudiantModuleList": [
+          {
+            "codeModule": "TII121*5",
+            "noteModule": 18,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12115",
+                "titreElement": "Analyse Numerique 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12125",
+                "titreElement": "Statistique",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII122*5",
+            "noteModule":17,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12215",
+                "titreElement": "Structures de donnees",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12225",
+                "titreElement": "Programmation fonctionnel",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII123*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12315",
+                "titreElement": "Conception et progra C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12325",
+                "titreElement": "Projet progra ori obj C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII124*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12415",
+                "titreElement": "Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12425",
+                "titreElement": "Projet Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII125*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12515",
+                "titreElement": "Theorie des Systemes d'ex",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12525",
+                "titreElement": "SE Windows/Unix/Linux",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII126*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12615",
+                "titreElement": "Projet personnel 1",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 1
+              }
+            ]
+          },
+          {
+            "codeModule": "TII127*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12715",
+                "titreElement": "Comptabilite generale",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12725",
+                "titreElement": "Gestion de l'entreprise",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII128*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12815",
+                "titreElement": "TC langue franeaise 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12825",
+                "titreElement": "Anglais 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 21518305,
+        "nom": "AIT OULAHYANE",
+        "prenom": "AYA",
+        "dateNaissance": " 06/09/2000",
+        "noteSemestre": null,
+        "etudiantModuleList": [
+          {
+            "codeModule": "TII121*5",
+            "noteModule": 18,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12115",
+                "titreElement": "Analyse Numerique 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12125",
+                "titreElement": "Statistique",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII122*5",
+            "noteModule":17,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12215",
+                "titreElement": "Structures de donnees",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12225",
+                "titreElement": "Programmation fonctionnel",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII123*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12315",
+                "titreElement": "Conception et progra C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12325",
+                "titreElement": "Projet progra ori obj C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII124*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12415",
+                "titreElement": "Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12425",
+                "titreElement": "Projet Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII125*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12515",
+                "titreElement": "Theorie des Systemes d'ex",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12525",
+                "titreElement": "SE Windows/Unix/Linux",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII126*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12615",
+                "titreElement": "Projet personnel 1",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 1
+              }
+            ]
+          },
+          {
+            "codeModule": "TII127*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12715",
+                "titreElement": "Comptabilite generale",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12725",
+                "titreElement": "Gestion de l'entreprise",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII128*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12815",
+                "titreElement": "TC langue franeaise 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12825",
+                "titreElement": "Anglais 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 21518305,
+        "nom": "AIT OULAHYANE",
+        "prenom": "AYA",
+        "dateNaissance": " 06/09/2000",
+        "noteSemestre": null,
+        "etudiantModuleList": [
+          {
+            "codeModule": "TII121*5",
+            "noteModule": 18,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12115",
+                "titreElement": "Analyse Numerique 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12125",
+                "titreElement": "Statistique",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII122*5",
+            "noteModule":17,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12215",
+                "titreElement": "Structures de donnees",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12225",
+                "titreElement": "Programmation fonctionnel",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII123*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12315",
+                "titreElement": "Conception et progra C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12325",
+                "titreElement": "Projet progra ori obj C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII124*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12415",
+                "titreElement": "Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12425",
+                "titreElement": "Projet Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII125*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12515",
+                "titreElement": "Theorie des Systemes d'ex",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12525",
+                "titreElement": "SE Windows/Unix/Linux",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII126*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12615",
+                "titreElement": "Projet personnel 1",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 1
+              }
+            ]
+          },
+          {
+            "codeModule": "TII127*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12715",
+                "titreElement": "Comptabilite generale",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12725",
+                "titreElement": "Gestion de l'entreprise",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII128*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12815",
+                "titreElement": "TC langue franeaise 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12825",
+                "titreElement": "Anglais 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "numero": 21518305,
+        "nom": "AIT OULAHYANE",
+        "prenom": "AYA",
+        "dateNaissance": " 06/09/2000",
+        "noteSemestre": null,
+        "etudiantModuleList": [
+          {
+            "codeModule": "TII121*5",
+            "noteModule": 18,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12115",
+                "titreElement": "Analyse Numerique 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12125",
+                "titreElement": "Statistique",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII122*5",
+            "noteModule":17,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12215",
+                "titreElement": "Structures de donnees",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12225",
+                "titreElement": "Programmation fonctionnel",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII123*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12315",
+                "titreElement": "Conception et progra C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12325",
+                "titreElement": "Projet progra ori obj C++",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII124*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12415",
+                "titreElement": "Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12425",
+                "titreElement": "Projet Developpement web",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII125*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12515",
+                "titreElement": "Theorie des Systemes d'ex",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12525",
+                "titreElement": "SE Windows/Unix/Linux",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII126*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12615",
+                "titreElement": "Projet personnel 1",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 1
+              }
+            ]
+          },
+          {
+            "codeModule": "TII127*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12715",
+                "titreElement": "Comptabilite generale",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12725",
+                "titreElement": "Gestion de l'entreprise",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          },
+          {
+            "codeModule": "TII128*5",
+            "noteModule": 12,
+            "resultatModule": "",
+            "etudiantElementsModuleList": [
+              {
+                "codeElement": "TII12815",
+                "titreElement": "TC langue franeaise 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              },
+              {
+                "codeElement": "TII12825",
+                "titreElement": "Anglais 2",
+                "note": 12,
+                "bareme": 12,
+                "ponderation": 0.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "thead": {
+    "moduleList": [
+      {
+        "codeModule": "TII121*5",
+        "etudiantElementsModuleList": [
+          {
+            "codeElement": "TII12115",
+            "titreElement": "Analyse Numerique 2"
+          },
+          {
+            "codeElement": "TII12125",
+            "titreElement": "Statistique"
+          }
+        ]
+      },
+      {
+        "codeModule": "TII122*5",
+        "etudiantElementsModuleList": [
+          {
+            "codeElement": "TII12215",
+            "titreElement": "Structures de donnees"
+          },
+          {
+            "codeElement": "TII12225",
+            "titreElement": "Programmation fonctionnel"
+          }
+        ]
+      },
+      {
+        "codeModule": "TII123*5",
+        "etudiantElementsModuleList": [
+          {
+            "codeElement": "TII12315",
+            "titreElement": "Conception et progra C++"
+          },
+          {
+            "codeElement": "TII12325",
+            "titreElement": "Projet progra ori obj C++"
+          }
+        ]
+      },
+      {
+        "codeModule": "TII124*5",
+        "etudiantElementsModuleList": [
+          {
+            "codeElement": "TII12415",
+            "titreElement": "Developpement web"
+          },
+          {
+            "codeElement": "TII12425",
+            "titreElement": "Projet Developpement web"
+          }
+        ]
+      },
+      {
+        "codeModule": "TII125*5",
+        "etudiantElementsModuleList": [
+          {
+            "codeElement": "TII12515",
+            "titreElement": "Theorie des Systemes d'ex"
+          },
+          {
+            "codeElement": "TII12525",
+            "titreElement": "SE Windows/Unix/Linux"
+          }
+        ]
+      },
+      {
+        "codeModule": "TII126*5",
+        "etudiantElementsModuleList": [
+          {
+            "codeElement": "TII12615",
+            "titreElement": "Projet personnel 1"
+          }
+        ]
+      },
+      {
+        "codeModule": "TII127*5",
+        "etudiantElementsModuleList": [
+          {
+            "codeElement": "TII12715",
+            "titreElement": "Comptabilite generale"
+          },
+          {
+            "codeElement": "TII12725",
+            "titreElement": "Gestion de l'entreprise"
+          }
+        ]
+      },
+      {
+        "codeModule": "TII128*5",
+        "etudiantElementsModuleList": [
+          {
+            "codeElement": "TII12815",
+            "titreElement": "TC langue franeaise 2"
+          },
+          {
+            "codeElement": "TII12825",
+            "titreElement": "Anglais 2"
+          }
+        ]
+      }
+    ]
+  }
+}

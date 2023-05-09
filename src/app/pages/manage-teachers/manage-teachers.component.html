@@ -1,0 +1,149 @@
+<div class="wrapper">
+  <div class="main-panel">
+    <app-navbar></app-navbar>
+    <div class="panel-header panel-header-sm" style="text-align: center">
+      <button class="btn btn-round btn-warning" (click)="goToMenu()" style="margin-left:18px; margin-right: 18px">Menu</button>
+      <button class="btn btn-round btn-warning" (click)="goToManageSpecialties()"
+              style="margin-left:18px; margin-right: 18px;display: none">Filières
+      </button>
+      <button class="btn btn-round btn-warning" (click)="goToManageModules()" style="margin-right: 18px;display: none">Modules
+      </button>
+      <button class="btn btn-round btn-success" (click)="goToManageStudents()" style="margin-right: 18px">Professeurs
+      </button>
+      <button class="btn btn-round btn-warning" (click)="goToDeliberationsOfS1S1()" style="margin-right: 18px;display: none">
+        Délibérations S1
+      </button>
+      <button class="btn btn-round btn-warning" (click)="goToDeliberationsOfS2S1()" style="margin-right: 18px;display: none">
+        Délibérations S2
+      </button>
+      <button class="btn btn-round btn-warning" (click)="goToDeliberationsOfYear()" style="margin-right: 18px;display: none">
+        Délibérations Annuelles
+      </button>
+      <button class="btn btn-round btn-warning" (click)="logout()" style="margin-right: 18px">Se déconnecter</button>
+      <br><br>
+    </div>
+    <div class="main-content">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header" style="text-align: center">
+              <h4 style="text-align: center" class="card-title">Ajouter une listes des professeurs</h4><br>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                  <button style="margin-top: 0px;" (click)="openFile()" class="btn btn-round btn-danger">Importer (XLS)
+                    <input id="xlsFileToBeUploaded" type="file" style="display:none" (change)="handle($event)">
+                  </button>
+                  </div>
+                </div>
+              </div>
+              <div style="display: none">
+                <img width="340px" src="assets/img/logo.svg">
+              </div>
+            </div>
+            <div class="card-body">
+              <form>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <div style="text-align:center">
+                        <label style="text-align: center">Cin :</label>
+                        <input style="text-align: center" type="text" class="form-control"
+                               [(ngModel)]="Cin"
+                               name="Cin">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <div style="text-align:center">
+                        <label style="text-align: center">Nom :</label>
+                        <input style="text-align: center" type="text" class="form-control"
+                               [(ngModel)]="Nom"
+                               name="Nom">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <div style="text-align:center">
+                        <label style="text-align: center">Prénom :</label>
+                        <input style="text-align: center" type="text" class="form-control"
+                               [(ngModel)]="Prenom"
+                               name="Prenom">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12" style="text-align: center">
+                    <div class="form-group">
+                      <button type="button" class="btn btn-primary btn-round" (click)="addItem()">Ajouter</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-header">
+              <h4 style="text-align: center" class="card-title">Liste des professeurs</h4><br>
+              <div class="col-md-12">
+                <div class="form-group">
+                  <div style="text-align:center">
+                    <label>Veuillez choisir un fillire :</label>
+                    <select (change)="getTeachers()" [(ngModel)]="ListTeachers" name="speciality" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                      <option *ngFor="let item of specialities" [value]="item.id">
+                        {{item.code+" - "+item.titre}}
+                      </option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive" style="height: 420px">
+                <table *ngIf="this.teachers.length>0 else empty" class="table">
+                  <thead class="text-primary">
+                  <tr>
+                    <th style="text-align: center">Cin</th>
+                    <th style="text-align: center">Nom</th>
+                    <th style="text-align: center">Prénom</th>
+                    <th style="text-align: center">Actions</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr *ngFor="let item of this.teachers; let i = index">
+                    <td style="text-align: center">{{item.cin}}</td>
+                    <td style="text-align: center">{{item.nom}}</td>
+                    <td style="text-align: center">{{item.prenom}}</td>
+                    <td style="text-align: center; display: flex">
+                      <button (click)="deleteItem(item.cin)" data-toggle="tooltip" data-placement="top"
+                              title="Supprimer" style="margin-right: 8px;"
+                              class="btn btn-danger btn-icon btn-round"><i class="now-ui-icons ui-1_simple-remove"></i>
+                      </button>
+                      <button (click)="UpdateItem(item.cin)" data-toggle="tooltip" data-placement="top"
+                              title="Mettre à jour" style="margin-right: 8px;"
+                              class="btn btn-danger btn-icon btn-round"><i class="now-ui-icons ui-1_check"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+                <ng-template #empty>
+                  <div>
+                    <p style="text-align: center">Veuillez choisir une critaire pour afficher les professeurs !</p>
+                  </div>
+                </ng-template>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <app-footer></app-footer>
+  </div>
+</div>

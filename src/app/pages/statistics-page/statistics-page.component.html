@@ -1,0 +1,140 @@
+<div class="wrapper">
+  <div class="main-panel">
+    <app-navbar></app-navbar>
+    <div class="panel-header panel-header-sm">
+    </div>
+    <div class="main-content">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card" style="border-radius: 48px !important;">
+            <h4 style="text-align: center" class="card-title">Effectif des étudiants</h4><br>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <div style="text-align:center">
+                      <select [(ngModel)]="speciality" name="speciality" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                        <option *ngFor="let item of specialities" [value]="item">
+                          {{item}}
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <div style="text-align:center">
+                      <select [(ngModel)]="year" name="year" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                        <option *ngFor="let item of years" [value]="item">
+                          {{item}}
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="chart-container">
+                <canvas  id="MyChart" >{{ chart }}</canvas>
+              </div>
+            </div>
+          </div >
+        </div>
+
+        <div class="col-md-6">
+          <div class="card" style="border-radius: 48px !important;">
+            <h4 style="text-align: center" class="card-title">Nombre d'admis/Ajournés</h4><br>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <div style="text-align:center">
+                      <select [(ngModel)]="speciality" name="speciality" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                        <option *ngFor="let item of specialities" [value]="item">
+                          {{item}}
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <div style="text-align:center">
+                      <select [(ngModel)]="year" name="year" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                        <option *ngFor="let item of years" [value]="item">
+                          {{item}}
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="chart-container">
+                <canvas  id="MyChart2" >{{ chart2 }}</canvas>
+              </div>
+            </div>
+          </div >
+        </div>
+
+        <div class="col-md-12">
+          <div class="card" style="border-radius: 48px !important;">
+            <h4 style="text-align: center" class="card-title">Absences par élément de module</h4><br>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="form-group">
+                    <div style="text-align:center">
+                      <select [(ngModel)]="speciality" name="speciality" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                        <option *ngFor="let item of specialities" [value]="item">
+                          {{item}}
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-group">
+                    <div style="text-align:center">
+                      <select [(ngModel)]="year" name="year" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                        <option *ngFor="let item of years" [value]="item">
+                          {{item}}
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="form-group">
+                    <div style="text-align:center">
+                      <select [(ngModel)]="module" name="module" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                        <option *ngFor="let item of modules" [value]="item">
+                          {{item}}
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="form-group">
+                    <div style="text-align:center">
+                      <select [(ngModel)]="element" name="element" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                        <option *ngFor="let item of elements" [value]="item">
+                          {{item}}
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="chart-container">
+                <canvas  id="MyChart3" >{{ chart3 }}</canvas>
+              </div>
+            </div>
+          </div >
+        </div>
+      </div>
+    </div>
+    <app-footer></app-footer>
+  </div>
+</div>

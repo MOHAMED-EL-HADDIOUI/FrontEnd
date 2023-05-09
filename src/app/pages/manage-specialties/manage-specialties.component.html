@@ -1,0 +1,104 @@
+<div class="wrapper">
+  <div class="main-panel">
+    <app-navbar></app-navbar>
+    <div class="panel-header panel-header-sm" style="text-align: center">
+      <button class="btn btn-round btn-warning" (click)="goToMenu()" style="margin-left:18px; margin-right: 18px">Menu</button>
+      <button class="btn btn-round btn-success" (click)="goToManageSpecialties()" style="margin-left:18px; margin-right: 18px">Filières</button>
+      <button class="btn btn-round btn-warning" (click)="goToManageModules()" style="margin-right: 18px;display: none">Modules</button>
+      <button class="btn btn-round btn-warning" (click)="goToManageStudents()" style="margin-right: 18px;display: none">Etudiants</button>
+      <button class="btn btn-round btn-warning" (click)="goToDeliberationsOfS1S1()" style="margin-right: 18px;display: none">Délibérations S1</button>
+      <button class="btn btn-round btn-warning" (click)="goToDeliberationsOfS2S1()" style="margin-right: 18px;display: none">Délibérations S2</button>
+      <button class="btn btn-round btn-warning" (click)="goToDeliberationsOfYear()" style="margin-right: 18px;display: none">Délibérations Annuelles</button>
+      <button class="btn btn-round btn-warning" (click)="logout()" style="margin-right: 18px">Se déconnecter</button>
+      <br><br>
+    </div>
+    <div class="main-content">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header" style="text-align: center">
+              <h4 style="text-align: center" class="card-title">Ajouter une filière</h4>
+              <div style="text-align:center; display: none">
+                <img width="340px" src="assets/img/logo.svg">
+              </div>
+            </div>
+            <div class="card-body">
+              <form>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <div style="text-align:center">
+                        <label style="text-align: center">Code :</label>
+                        <input style="text-align: center" type="text" class="form-control"
+                               [(ngModel)]="code"
+                               name="code">
+                      </div>
+                    </div>
+                </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <div style="text-align:center">
+                        <label style="text-align: center">Titre :</label>
+                        <input style="text-align: center" type="text" class="form-control"
+                               [(ngModel)]="title"
+                               name="title">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12" style="text-align: center">
+                    <div class="form-group">
+                        <button type="button" class="btn btn-primary btn-round" (click)="addItem()">Ajouter</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+          </div>
+          </div>
+        </div>
+
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-header">
+              <h4 style="text-align: center" class="card-title">Liste des filières</h4>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table *ngIf="specialities.length>0 else empty" class="table">
+                  <thead class=" text-primary">
+                  <tr>
+                    <th style="text-align: center">Id</th>
+                    <th style="text-align: center">Titre</th>
+                    <th style="text-align: center">Code</th>
+                    <th style="text-align: center">Actions</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr *ngFor="let item of specialities; let i = index">
+                    <td style="text-align: center">{{i+1}}</td>
+                    <td style="text-align: center">{{item.titre}}</td>
+                    <td style="text-align: center">{{item.code}}</td>
+                    <td style="text-align: center">
+                      <button (click)="deleteItem(item.id)" data-toggle="tooltip" data-placement="top"
+                              title="Supprimer" name="delete" style="margin-right: 8px;"
+                              class="btn btn-danger btn-icon btn-round"><i class="now-ui-icons ui-1_simple-remove"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+                <ng-template #empty>
+                  <div>
+                    <p style="text-align: center">La liste est vide !</p>
+                  </div>
+                </ng-template>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <app-footer></app-footer>
+  </div>
+</div>

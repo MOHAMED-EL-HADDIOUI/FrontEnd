@@ -1,0 +1,79 @@
+<div class="wrapper">
+  <div class="main-panel">
+    <app-navbar></app-navbar>
+    <div class="panel-header panel-header-sm">
+    </div>
+    <div class="main-content">
+      <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header" style="text-align: center">
+              <h4 style="text-align: center" class="card-title">Se Connecter</h4>
+           </div>
+            <div class="card-body">
+              <form [formGroup]="loginForm" (submit)="login()">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div  style="text-align:center">
+                      <img width="340px" src="assets/img/logo.svg">
+                    </div>
+                    <div class="form-group">
+                      <div  style="text-align:center">
+                        <label style="text-align: center" for="email">Email :</label>
+                        <input name="email" style="text-align: center" (change)="showDepartmentsSelect($event)" type="text" class="form-control"
+                        formControlName="email" id="email">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <div  style="text-align:center">
+                        <label style="text-align: center" for="password">Password :</label>
+                        <input style="text-align: center" type="password" name="password" formControlName="password" class="form-control" id="password" >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row" *ngIf="isTheUserTryingToLoginATeacher">
+                  <div class="col-md-12">
+                  <div class="form-group">
+                    <div style="text-align:center">
+                      <label style="text-align: center" for="password">Département :</label>
+                      <select [(ngModel)]="selectedDepartment" name="department" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                        <option *ngFor="let item of departments" [value]="item.id">
+                          {{item}}
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+
+
+
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <div  style="text-align:center">
+                        <button type="submit" class="btn btn-primary btn-round">Login</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+        </div>
+      </div>
+    </div>
+    <app-footer></app-footer>
+  </div>
+</div>

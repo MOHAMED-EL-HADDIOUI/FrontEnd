@@ -1,0 +1,349 @@
+<div class="wrapper">
+  <div class="main-panel">
+    <app-navbar></app-navbar>
+    <div class="panel-header panel-header-sm" style="text-align: center">
+      <button class="btn btn-round btn-warning" (click)="goToMenu()" style="margin-left:18px; margin-right: 18px">Menu</button>
+      <button class="btn btn-round btn-warning" (click)="goToManageSpecialties()"
+              style="margin-left:18px; margin-right: 18px;display: none">Filières
+      </button>
+      <button class="btn btn-round btn-success" (click)="goToManageModules()" style="margin-right: 18px">Modules
+      </button>
+      <button class="btn btn-round btn-warning" (click)="goToManageStudents()" style="margin-right: 18px;display: none">Etudiants
+      </button>
+      <button class="btn btn-round btn-warning" (click)="goToDeliberationsOfS1S1()" style="margin-right: 18px;display: none">
+        Délibérations S1
+      </button>
+      <button class="btn btn-round btn-warning" (click)="goToDeliberationsOfS2S1()" style="margin-right: 18px;display: none">
+        Délibérations S2
+      </button>
+      <button class="btn btn-round btn-warning" (click)="goToDeliberationsOfYear()" style="margin-right: 18px;display: none">
+        Délibérations Annuelles
+      </button>
+      <button class="btn btn-round btn-warning" (click)="logout()" style="margin-right: 18px">Se déconnecter</button>
+      <br><br>
+    </div>
+    <div class="main-content">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header" style="text-align: center">
+              <h4 style="text-align: center" class="card-title">Ajouter un module</h4>
+              <div  style="text-align:center; display:none">
+                <img width="340px" src="assets/img/logo.svg">
+              </div>
+            </div>
+            <div class="card-body">
+              <form style="height: 260px">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <div  style="text-align:center">
+                        <label>Filière :</label>
+                        <select [(ngModel)]="specialityToAddModule" name="speciality" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                          <option *ngFor="let item of specialities" [value]="item.id">
+                            {{item.code+" - "+item.titre}}
+                          </option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <div  style="text-align:center">
+                        <label>Semestre :</label>
+                        <select [(ngModel)]="semesterToAddModule" name="semester"
+                                style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                          <option value="Semestre 1">Semestre 1</option>
+                          <option value="Semestre 2">Semestre 2</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <div  style="text-align:center">
+                        <label style="text-align: center">Code :</label>
+                        <input style="text-align: center" type="text" class="form-control"
+                               [(ngModel)]="codeToAddModule"
+                               name="code">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <div  style="text-align:center">
+                        <label style="text-align: center">Titre :</label>
+                        <input style="text-align: center" type="text" class="form-control"
+                               [(ngModel)]="titleToAddModule"
+                               name="title">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12" style="text-align: center">
+                    <div class="form-group">
+                      <button type="button" class="btn btn-primary btn-round" (click)="addModule()">Ajouter</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-header">
+              <h4 style="text-align: center" class="card-title">Liste des modules</h4>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <div  style="text-align:center">
+                      <label>Filière :</label>
+                      <select [(ngModel)]="specialityToListModules" name="speciality" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                        <option *ngFor="let item of specialities" [value]="item.id">
+                          {{item.code+" - "+item.titre}}
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <div  style="text-align:center">
+                      <label>Semestre :</label>
+                      <select [(ngModel)]="semesterToListModules" name="semester" (change)="getModulesToList()"
+                              style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                        <option value="Semestre 1">Semestre 1</option>
+                        <option value="Semestre 2">Semestre 2</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="table-responsive" style="height: 180px">
+                <table *ngIf="modulesToList.length>0 else empty" class="table">
+                  <thead class=" text-primary">
+                  <tr>
+                    <th style="text-align: center">Id</th>
+                    <th style="text-align: center">Titre</th>
+                    <th style="text-align: center">Code</th>
+                    <th style="text-align: center">Actions</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr *ngFor="let item of modulesToList; let i = index">
+                    <td style="text-align: center">{{i + 1}}</td>
+                    <td style="text-align: center">{{item.titre}}</td>
+                    <td style="text-align: center">{{item.code}}</td>
+                    <td style="text-align: center">
+                      <button (click)="deleteModule(item.id)" data-toggle="tooltip" data-placement="top"
+                              title="Delete" name="delete" style="margin-right: 8px;"
+                              class="btn btn-danger btn-icon btn-round"><i class="now-ui-icons ui-1_simple-remove"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+                <ng-template #empty>
+                  <div>
+                    <p style="text-align: center">Veuillez choisir une filière et un semestre !</p>
+                  </div>
+                </ng-template>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header" style="text-align: center">
+              <h4 style="text-align: center" class="card-title">Ajouter un élément de module</h4>
+              <div  style="text-align:center; display:none">
+                <img width="340px" src="assets/img/logo.svg">
+              </div>
+            </div>
+            <div class="card-body">
+              <form>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <div  style="text-align:center">
+                        <label>Filière :</label>
+                        <select [(ngModel)]="specialityToAddElement" name="speciality" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                          <option *ngFor="let item of specialities" [value]="item.id">
+                            {{item.code+" - "+item.titre}}
+                          </option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <div  style="text-align:center">
+                        <label>Semestre :</label>
+                        <select [(ngModel)]="semesterToAddElement" name="semester" (change)="getModulesToAddElement()"
+                                style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                          <option value="Semestre 1">Semestre 1</option>
+                          <option value="Semestre 2">Semestre 2</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <div  style="text-align:center">
+                        <label>Module :</label>
+                        <select [(ngModel)]="moduleToAddElement" name="speciality" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                          <option *ngFor="let item of modulesToAddElement" [value]="item.id">
+                            {{item.code+" - "+item.titre}}
+                          </option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <div  style="text-align:center">
+                        <label style="text-align: center">Code :</label>
+                        <input style="text-align: center" type="text" class="form-control"
+                               [(ngModel)]="codeToAddElement"
+                               name="codeToAddElement">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <div  style="text-align:center">
+                        <label style="text-align: center">Titre :</label>
+                        <input style="text-align: center" type="text" class="form-control"
+                               [(ngModel)]="titleToAddElement"
+                               name="titleToAddElement">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <div  style="text-align:center">
+                        <label style="text-align: center">Barème :</label>
+                        <input style="text-align: center" type="number" class="form-control"
+                               [(ngModel)]="bareme"
+                               name="bareme">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <div  style="text-align:center">
+                        <label style="text-align: center">Pondération :</label>
+                        <input style="text-align: center" type="number" class="form-control"
+                               [(ngModel)]="ponderation"
+                               name="ponderation">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12" style="text-align: center">
+                    <div class="form-group">
+                      <button type="button" class="btn btn-primary btn-round" (click)="addElement()">Ajouter</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-header">
+              <h4 style="text-align: center" class="card-title">Liste des élements de module</h4>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <div  style="text-align:center">
+                      <label>Filière :</label>
+                      <select [(ngModel)]="specialityToListElements" name="speciality" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                        <option *ngFor="let item of specialities" [value]="item.id">
+                          {{item.code+" - "+item.titre}}
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <div  style="text-align:center">
+                      <label>Semestre :</label>
+                      <select [(ngModel)]="semesterToListElements" name="semester" (change)="getModulesToListElements()"
+                              style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                        <option value="Semestre 1">Semestre 1</option>
+                        <option value="Semestre 2">Semestre 2</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <div  style="text-align:center">
+                      <label>Module :</label>
+                      <select [(ngModel)]="moduleToListElements" (change)="getElementsToList()" name="moduleToListElements" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                        <option *ngFor="let item of modulesToListElements" [value]="item.id">
+                          {{item.code+" - "+item.titre}}
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="table-responsive" style="height: 290px">
+                <table *ngIf="elementsToList.length>0 else empty" class="table">
+                  <thead class=" text-primary">
+                  <tr>
+                    <th style="text-align: center">Id</th>
+                    <th style="text-align: center">Titre</th>
+                    <th style="text-align: center">Code</th>
+                    <th style="text-align: center">Barème</th>
+                    <th style="text-align: center">Pondération</th>
+                    <th style="text-align: center">Actions</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr *ngFor="let item of elementsToList; let i = index">
+                    <td style="text-align: center">{{i + 1}}</td>
+                    <td style="text-align: center">{{item.titre}}</td>
+                    <td style="text-align: center">{{item.code}}</td>
+                    <td style="text-align: center">{{item.bareme}}</td>
+                    <td style="text-align: center">{{item.ponderation}}</td>
+                    <td style="text-align: center">
+                      <button (click)="deleteElement(item.id)" data-toggle="tooltip" data-placement="top"
+                              title="Delete" name="delete" style="margin-right: 8px;"
+                              class="btn btn-danger btn-icon btn-round"><i class="now-ui-icons ui-1_simple-remove"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+                <ng-template #empty>
+                  <div>
+                    <p style="text-align: center">The list is empty !</p>
+                  </div>
+                </ng-template>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <app-footer></app-footer>
+  </div>
+</div>

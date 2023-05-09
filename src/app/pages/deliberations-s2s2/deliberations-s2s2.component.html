@@ -1,0 +1,182 @@
+<div class="wrapper">
+  <div class="main-panel">
+    <app-navbar></app-navbar>
+    <div class="panel-header panel-header-sm" style="text-align: center">
+      <button class="btn btn-round btn-warning" (click)="goToMenu()" style="margin-left:18px; margin-right: 18px">Menu</button>
+      <button class="btn btn-round btn-warning" (click)="goToManageSpecialties()"
+              style="margin-left:18px; margin-right: 18px;display: none">Filières
+      </button>
+      <button class="btn btn-round btn-warning" (click)="goToManageModules()" style="margin-right: 18px;display: none">Modules
+      </button>
+      <button class="btn btn-round btn-warning" (click)="goToManageStudents()" style="margin-right: 18px;display: none">Etudiants
+      </button>
+      <button class="btn btn-round btn-warning" (click)="goToDeliberationsOfS1S1()" style="margin-right: 18px">
+        Délibérations S1
+      </button>
+      <button class="btn btn-round btn-success" (click)="goToDeliberationsOfS2S1()" style="margin-right: 18px">
+        Délibérations S2
+      </button>
+      <button class="btn btn-round btn-warning" (click)="goToDeliberationsOfYear()" style="margin-right: 18px">
+        Délibérations Annuelles
+      </button>
+      <button class="btn btn-round btn-warning" (click)="logout()" style="margin-right: 18px">Se déconnecter</button>
+      <br><br>
+    </div>
+    <div class="main-content">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-header" style="text-align: center">
+              <button (click)="goToS1()" class="btn btn-round btn-info" style="margin-left:18px; margin-right: 18px">
+                Session 1
+              </button>
+              <button (click)="goToS2()" class="btn btn-round btn-success" style="margin-right: 18px">Session 2</button>
+              <h4 style="text-align: center;display: none" class="card-title">Déliberations du semestre 1 (Session
+                1)</h4>
+              <br>
+              <button style="margin-right: 12px" (click)="openFile()" class="btn btn-round btn-danger">Importer (XLS)
+                <input id="xlsFileToBeUploaded" type="file" style="display:none" (change)="handle($event)">
+              </button>
+              <button *ngIf="canShowTable" style="margin-right: 12px" (click)="exportAsXls()"
+                      class="btn btn-round btn-danger">Exporter
+                (XLS)
+              </button>
+              <button style="margin-right: 12px" (click)="toggleShowElements()" *ngIf="areElementsShown && canShowTable"
+                      class="btn btn-round btn-danger">
+                Masquer les éléments
+              </button>
+              <button style="margin-right: 12px" (click)="toggleShowElements()" *ngIf="!areElementsShown"
+                      class="btn btn-round btn-danger">
+                Afficher les éléments
+              </button>
+              <br>
+              <button style="margin-right: 12px" (click)="closeCurrentSession()" class="btn btn-round btn-success">
+                Cloturer la session
+              </button>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+
+                <table *ngIf="canShowTable else empty" border=1 cellpadding=0 cellspacing=0
+                       style='border-collapse: collapse;table-layout:fixed;color: #333333'>
+
+                  <tr height=67 style='mso-height-source:userset;height:50.0pt'>
+                    <td colspan="3" height=67 width=75 style='height:50.0pt;width:56pt'></td>
+                    <td align=center width=69 style='width:52pt;background: #ffe9b7'>
+                      {{this.studentsOfSession2.students[0].codeSemestre + ' - ' + this.studentsOfSession2.students[0].titreSemestre}}
+                    </td>
+                    <ng-container *ngFor="let module of this.studentsOfSession2.students[0].modules;">
+                      <td colspan="2" align=center width=69 style='border-left:none;width:52pt; background: #eefae2'>
+                        {{module.code + ' - ' + module.titre}}
+                      </td>
+                      <ng-container *ngFor="let element of module.elements;">
+                        <td *ngIf="areElementsShown" align=center width=69
+                            style='border-left:none;width:52pt'>
+                          {{element.code + ' - ' + element.titre}}
+                        </td>
+                      </ng-container>
+                    </ng-container>
+                  </tr>
+                  <tr *ngIf="areElementsShown" height=24 style='mso-height-source:userset;height:18.5pt'>
+                    <td height=24 colspan="3"
+                        style='height:18.5pt;border-top:none; padding-left: 16px;padding-right: 16px'>
+                      Coefficients
+                    </td>
+                    <td align=center width=69 style='width:52pt;background: #ffe9b7'></td>
+                    <ng-container *ngFor="let module of this.studentsOfSession2.students[0].modules;">
+                      <td colspan="2" align=center width=69 style='border-left:none;width:52pt; background: #eefae2'>
+
+                      </td>
+                      <ng-container *ngFor="let element of module.elements;">
+                        <td *ngIf="areElementsShown" align=center width=69
+                            style='border-left:none;width:52pt'>
+                          {{element.ponderation}}
+                        </td>
+                      </ng-container>
+                    </ng-container>
+                  </tr>
+                  <tr height=24 style='mso-height-source:userset;height:18.5pt'>
+                    <td height=24
+                        style='height:18.5pt;border-top:none; padding-left: 16px;padding-right: 16px'>
+                      Numéro
+                    </td>
+                    <td style='border-left:none;padding-left: 48px;padding-right: 48px'>Nom</td>
+                    <td style='border-left:none;padding-left: 28px;padding-right: 28px'>Prénom</td>
+
+                    <td
+                      style='border-top:none;border-left:none;padding-left: 18px;padding-right: 18px; background: #ffe9b7;width: 120px'>
+                      Note
+                    </td>
+
+                    <ng-container *ngFor="let module of this.studentsOfSession2.students[0].modules;">
+                      <td
+                        style='border-top:none;border-left:none;padding-left: 18px;padding-right: 18px;background: #eefae2'>
+                        Note
+                      </td>
+                      <td
+                        style='border-top:none;border-left:none;background: #eefae2'>
+                        Résultat
+                      </td>
+                      <ng-container *ngFor="let element of module.elements;">
+                        <td *ngIf="areElementsShown" style='border-top:none;border-left:none'>Note
+                        </td>
+                      </ng-container>
+                    </ng-container>
+
+                  </tr>
+
+                  <ng-container *ngFor="let line of this.studentsOfSession2.students; let i = index">
+                    <tr *ngIf="canShowStudentFromHtml(line)" height=17 style='height:13.0pt'>
+                      <td height=17 style='height:13.0pt;border-top:none'>{{line.numero}}</td>
+                      <td style='border-top:none;border-left:none'>{{line.nom}}</td>
+                      <td style='border-top:none;border-left:none'>{{line.prenom}}</td>
+
+
+                      <td style="min-width:120px; background: #ffe9b7" align=center
+                          style='font-weight:bold;padding:2px;border-top:none;border-left:none; background: #ffe9b7'>
+                        <input disabled style="text-align: center;width: 80px; background: #ffe9b7" class="form-control"
+                               [(ngModel)]="line.noteSemestre"
+                               type="number" min="0" max="20"/>
+                      </td>
+
+                      <ng-container *ngFor="let module of this.studentsOfSession2.students[i].modules;">
+                        <td style="min-width:80px"
+                            align=center
+                            style='font-weight:bold;padding:2px;border-top:none;border-left:none; background: #eefae2'>
+                          <input style="text-align: center; background: #eefae2;width: 80px;" disabled
+                                 class="form-control" type="number" min="0" max="20"
+                                 [(ngModel)]="module.note"/>
+                        </td>
+                        <td
+                          style="border-top:none;border-left:none;background: #eefae2">{{module.resultat}}</td>
+                        <ng-container *ngFor="let element of module.elements;">
+                          <td *ngIf="areElementsShown" style="min-width:80px"
+                              align=center
+                              style='font-weight:bold;padding:2px;border-top:none;border-left:none'>
+                            <input style="text-align: center;width: 80px;"
+                                   (change)="performCalculations()"
+                                   class="form-control"
+                                   type="number" min="0" max="20"
+                                   [(ngModel)]="element.note"/>
+                          </td>
+                        </ng-container>
+                      </ng-container>
+                    </tr>
+                  </ng-container>
+
+                </table>
+                <ng-template #empty>
+                  <div>
+                    <p style="text-align: center">Veuillez importer un fichier Excel (XLS) !</p>
+                  </div>
+                </ng-template>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <app-footer></app-footer>
+  </div>
+</div>

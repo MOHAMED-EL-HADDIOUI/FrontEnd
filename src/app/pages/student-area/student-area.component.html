@@ -1,0 +1,38 @@
+<div class="wrapper">
+  <div class="main-panel">
+    <app-navbar></app-navbar>
+    <div class="panel-header panel-header-sm" style="text-align: center">
+      <button class="btn btn-round btn-warning" (click)="goToMenu()" style="margin-left:18px; margin-right: 18px">Menu</button>
+     
+      <button class="btn btn-round btn-success" (click)="goToMySpace()" style="margin-right: 18px">
+        Mon espace
+      </button>
+      <button class="btn btn-round btn-warning" (click)="goToAttendance()" style="margin-right: 18px">
+        Mes Absences
+      </button>
+      <button class="btn btn-round btn-warning" (click)="goToMyMarks()" style="margin-right: 18px">
+        Mes Notes
+      </button>
+      <button class="btn btn-round btn-warning" (click)="logout()" style="margin-right: 18px">Se déconnecter</button>
+      <br><br>
+    </div>
+    <div class="main-content">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-header" style="text-align: center">
+            
+              <div class="p-grid">
+                <div class="p-col-12 p-md-4">
+                  <p-messages [(value)]="msgs" [enableService]="false"></p-messages>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <app-footer></app-footer>
+  </div>
+</div>

@@ -1,0 +1,61 @@
+<div class="wrapper">
+  <div class="main-panel">
+    <app-navbar></app-navbar>
+    <div class="panel-header panel-header-sm" style="text-align: center">
+      <button class="btn btn-round btn-warning" (click)="goToMenu()" style="margin-left:18px; margin-right: 18px">Menu</button>
+
+      <button class="btn btn-round btn-success" (click)="goToMySpace()" style="margin-right: 18px">
+        Mon espace
+      </button>
+      <button class="btn btn-round btn-warning" (click)="goToAttendance()" style="margin-right: 18px">
+       Marquer Absences
+      </button>
+      <button class="btn btn-round btn-warning" (click)="goToMyMarks()" style="margin-right: 18px">
+        Saisir Notes
+      </button>
+      <button class="btn btn-round btn-warning" (click)="logout()" style="margin-right: 18px">Se déconnecter</button>
+      <br><br>
+    </div>
+    <div class="main-content">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-header" style="text-align: center">
+              <div class="col-md-12">
+                <div class="card" style="border-radius: 48px !important;">
+                  <div class="card-body">
+                    <form>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div style="text-align:center">
+                            <!-- Show Two select option with form-control class -->
+                            <select class="form-control">
+                              <option>Selléctioner la filière
+                              </option>
+                            </select>
+                          </div>
+
+                          <div style="text-align:center">
+                            <!-- Show Two select option with form-control class -->
+                            <select class="form-control">
+                              <option value="">Choisir une classe</option>
+                              <option>{{''}}</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <app-footer></app-footer>
+  </div>
+</div>

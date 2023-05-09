@@ -1,0 +1,341 @@
+<div class="wrapper">
+  <div class="main-panel">
+    <app-navbar></app-navbar>
+    <div class="panel-header panel-header-sm" style="text-align: center">
+      <button class="btn btn-round btn-warning" (click)="goToMenu()" style="margin-left:18px; margin-right: 18px">Menu</button>
+      <button class="btn btn-round btn-warning" (click)="goToManageSpecialties()"
+              style="margin-left:18px; margin-right: 18px;display: none">Filières
+      </button>
+      <button class="btn btn-round btn-warning" (click)="goToManageModules()" style="margin-right: 18px;display: none">Modules
+      </button>
+      <button class="btn btn-round btn-success" (click)="goToManageStudents()" style="margin-right: 18px">Etudiants
+      </button>
+      <button class="btn btn-round btn-warning" (click)="goToDeliberationsOfS1S1()" style="margin-right: 18px;display: none">
+        Délibérations S1
+      </button>
+      <button class="btn btn-round btn-warning" (click)="goToDeliberationsOfS2S1()" style="margin-right: 18px;display: none">
+        Délibérations S2
+      </button>
+      <button class="btn btn-round btn-warning" (click)="goToDeliberationsOfYear()" style="margin-right: 18px;display: none">
+        Délibérations Annuelles
+      </button>
+      <button class="btn btn-round btn-warning" (click)="logout()" style="margin-right: 18px">Se déconnecter</button>
+      <br><br>
+    </div>
+    <div class="main-content">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header" style="text-align: center">
+              <h4 style="text-align: center" class="card-title">Ajouter un étudiant</h4><br>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <div style="text-align:center">
+                      <label style="text-align: center">filière :</label>
+                      <select [(ngModel)]="specialityToImportStudents" name="speciality" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                        <option *ngFor="let item of specialities" [value]="item.id">
+                          {{item.code+" - "+item.titre}}
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <div style="text-align:center">
+                      <label style="text-align: center">collegeYear :</label>
+                      <select [(ngModel)]="collegeYearToImportStudents" name="collegeYear" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                        <option *ngFor="let item of collegeYears" [value]="item.id">
+                          {{item.collegeYear}}
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <div style="text-align:center">
+                      <label style="text-align: center">semestre :</label>
+                      <select [(ngModel)]="semestreToImportStudents" name="semestre" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                        <option *ngFor="let item of semestres" [value]="item.id">
+                          {{item.code+" - "+item.titre}}
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                  <button style="margin-top: 0px;" (click)="openFile()" class="btn btn-round btn-danger">Importer (XLS)
+                    <input id="xlsFileToBeUploaded" type="file" enctype="multipart/form-data"  style="display:none" (change)="handle($event)">
+                  </button>
+                  </div>
+                </div>
+              </div>
+              <div style="display: none">
+                <img width="340px" src="assets/img/logo.svg">
+              </div>
+            </div>
+            <div class="card-body">
+              <form>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <div style="text-align:center">
+                        <label style="text-align: center">Numéro :</label>
+                        <input style="text-align: center" type="text" class="form-control"
+                               [(ngModel)]="number"
+                               name="number">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <div style="text-align:center">
+                        <label style="text-align: center">Nom :</label>
+                        <input style="text-align: center" type="text" class="form-control"
+                               [(ngModel)]="nom"
+                               name="nom">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <div style="text-align:center">
+                        <label style="text-align: center">Prénom :</label>
+                        <input style="text-align: center" type="text" class="form-control"
+                               [(ngModel)]="prenom"
+                               name="prenom">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <div style="text-align:center">
+                        <label style="text-align: center">Date de naissance :</label>
+                        <input style="text-align: center" type="text" class="form-control"
+                               [(ngModel)]="birth"
+                               name="birth">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <div style="text-align:center">
+                        <label style="text-align: center">Size :</label>
+                        <input style="text-align: center" type="text" class="form-control"
+                               [(ngModel)]="size"
+                               name="number">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <div style="text-align:center">
+                        <label style="text-align: center">Gmail :</label>
+                        <input style="text-align: center" type="text" class="form-control"
+                               [(ngModel)]="gmail"
+                               name="gmail">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <div style="text-align:center">
+                        <label style="text-align: center">Tel :</label>
+                        <input style="text-align: center" type="text" class="form-control"
+                               [(ngModel)]="tel"
+                               name="tel">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <div style="text-align:center">
+                        <label>Filière :</label>
+                        <select [(ngModel)]="specialityToAddStudent" name="speciality" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                          <option *ngFor="let item of specialities" [value]="item.id">
+                            {{item.code+" - "+item.titre}}
+                          </option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <div style="text-align:center">
+                        <label>CollegeYear :</label>
+                        <select [(ngModel)]="collegeYearToAddStudent" name="collegeYear" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                          <option *ngFor="let item of collegeYears" [value]="item.id">
+                            {{item.collegeYear}}
+                          </option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <div style="text-align:center">
+                        <label>Semestre :</label>
+                        <select [(ngModel)]="semestreToAddStudent" name="semestre" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                          <option *ngFor="let item of semestres" [value]="item.id">
+                            {{item.code+" - "+item.titre}}
+                          </option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12" style="text-align: center">
+                    <div class="form-group">
+                      <button type="button" class="btn btn-primary btn-round" (click)="addItem()">Ajouter</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-header">
+              <h4 style="text-align: center" class="card-title">Liste des étudiants</h4><br>
+              <div class="col-md-12">
+                <div class="form-group">
+                  <div style="text-align:center">
+                    <label>Veuillez choisir une filière pour afficher les étudiants :</label>
+                    <select (change)="getStudents()" [(ngModel)]="specialityToListStudents" name="speciality" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                      <option *ngFor="let item of specialities" [value]="item.id">
+                        {{item.code+" - "+item.titre}}
+                      </option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body" id="main-container">
+              <div class="table-responsive" style="height: 420px">
+                <table *ngIf="this.body.students.length>0 else empty" class="table">
+                  <thead class="text-primary">
+                  <tr>
+                    <th style="text-align: center">Id</th>
+                    <th style="text-align: center">Numéro</th>
+                    <th style="text-align: center">Nom</th>
+                    <th style="text-align: center">Prénom</th>
+                    <th style="text-align: center">Gmail</th>
+                    <th style="text-align: center">Tel</th>
+                    <th style="text-align: center">Sexe</th>
+                    <th style="text-align: center">Date de naissance</th>
+                    <th style="text-align: center">Actions</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr *ngFor="let item of this.body.students; let i = index">
+                    <td style="text-align: center">{{i+1}}</td>
+                    <td style="text-align: center">{{item.numero}}</td>
+                    <td style="text-align: center">{{item.nom}}</td>
+                    <td style="text-align: center">{{item.prenom}}</td>
+                    <td style="text-align: center">{{item.gmail}}</td>
+                    <td style="text-align: center">{{item.tel}}</td>
+                    <td style="text-align: center">{{item.gender}}</td>
+                    <td style="text-align: center">{{item.dateNaissance}}</td>
+                    <td style="text-align: center; display: flex">
+                      <button (click)="deleteItem(item.numero)" data-toggle="tooltip" data-placement="top"
+                              title="Supprimer" style="margin-right: 8px;"
+                              class="btn btn-danger btn-icon btn-round"><i class="now-ui-icons ui-1_simple-remove"></i>
+                      </button>
+                      <button (click)="onOpenModal(item,'edit')" data-toggle="tooltip" data-placement="top"
+                              title="Mettre à jour" style="margin-right: 8px;"
+                              class="btn btn-danger btn-icon btn-round"><i class="now-ui-icons ui-1_check"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+                <ng-template #empty>
+                  <div>
+                    <p style="text-align: center">Veuillez choisir une filière pour afficher les étudiants !</p>
+                  </div>
+                </ng-template>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk-->
+    <div class="modal fade" id="updateEmployeeModal" tabindex="-1" role="dialog" aria-labelledby="StudentEditModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title" id="updateStudentModalLabel">Edit Student {{editStudent?.nom}} {{editStudent?.prenom}}</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+               <span aria-hidden="true">&times;</span>
+               </button>
+            </div>
+            <div class="modal-body">
+               <form #editForm="ngForm">
+                  <div class="form-group">
+                     <label for="name">Nom</label>
+                     <input type="text" ngModel="{{editStudent?.nom}}" name="nom" class="form-control" id="nom"  placeholder="nom">
+                  </div>
+                  <input type="hidden" ngModel="{{editStudent?.id}}" name="id" class="form-control" id="id" placeholder="id">
+                  <input type="hidden" ngModel="{{editStudent?.numero}}" name="numero" class="form-control" id="numero" placeholder="numero">
+                  <div class="form-group">
+                     <label for="email">Prenom</label>
+                     <input type="email" ngModel="{{editStudent?.prenom}}" name="prenom" class="form-control" id="email" placeholder="prenom">
+                  </div>
+                  <div class="form-group">
+                     <label for="dateNaissance">GMAIL </label>
+                     <input type="text" ngModel="{{editStudent?.gmail}}" name="gmail" class="form-control" id="gmail" name="gmail" placeholder="gmail">
+                  </div>
+                  <div class="form-group">
+                    <label for="dateNaissance">Tel </label>
+                    <input type="text" ngModel="{{editStudent?.tel}}" name="tel" class="form-control" id="tel" name="tel" placeholder="tel">
+                 </div>
+                 <div class="form-group">
+                  <label for="dateNaissance">Date de naissance </label>
+                  <input type="text" ngModel="{{editStudent?.dateNaissance}}" name="dateNaissance" class="form-control" id="dateNaissance" name="dateNaissance" placeholder="Date de Naissance">
+               </div>
+                  <div class="form-group">
+                     <label for="gendre">Gendre</label>
+                     <input type="text" ngModel="{{editStudent?.gender}}" name="gender" class="form-control" id="gender" placeholder="H ou F">
+                  </div>
+                  <div class="form-group">
+                    <label for="semestre">CollegeYear</label>
+                    <select [(ngModel)]="semestreToUpdateStudent" name="collegeYear" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                      <option *ngFor="let item of collegeYears" [value]="item.id">
+                        {{item.code+" - "+item.titre}}
+                      </option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="filiere">Filière</label>
+                    <select [(ngModel)]="specialityToUpdateStudent" name="speciality" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                      <option *ngFor="let item of specialities" [value]="item.id">
+                        {{item.code+" - "+item.titre}}
+                      </option>
+                    </select>
+                 </div>
+                 <div class="form-group">
+                  <label for="semestre">Semestre</label>
+                  <select [(ngModel)]="semestreToUpdateStudent" name="semestre" style="text-align-last: center;width: 100%;background-color: transparent;border: 1px solid #E3E3E3;border-radius: 30px;color: #2c2c2c;font-size: 0.8571em;height: 40px;">
+                    <option *ngFor="let item of semestres" [value]="item.id">
+                      {{item.code+" - "+item.titre}}
+                    </option>
+                  </select>
+               </div>
+                  <div class="modal-footer">
+                     <button type="button" id="" data-dismiss="modal" class="btn btn-secondary">Close</button>
+                     <button (click)="onUpdateStudent()" data-dismiss="modal" class="btn btn-primary" >Save changes</button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+    </div>
+    <app-footer></app-footer>
+  </div>
+</div>
